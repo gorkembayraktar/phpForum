@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteRule ^./anasayfa?$ index.php
+RewriteRule ^blog?$ blog.php
+
+
+RewriteRule ^(forum|user|admin)($|/) - [L]
+
+
+
+
+RewriteRule ^([0-9a-zA-z-_/]+)$ index.php?par=$1
+
+#RewriteRule ^user/([0-9]+) user.php?id=$1
+

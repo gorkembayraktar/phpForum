@@ -1,0 +1,22 @@
+.row{
+	width:70%;
+	margin:auto;
+}
+.mybtn .btn-disabled{
+  opacity: .5;
+  color:gray;
+}
+
+
+@media screen and (max-width: 500px) {
+    .row{
+    	width:95%;
+    	margin:auto;
+    }
+    [data-img="myimg"]{
+     
+   		float:right;
+   		padding:25px;
+    }
+   
+}
