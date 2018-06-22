@@ -1,1 +1,1 @@
-# all bug :D
+Object oriented Programing was not used
